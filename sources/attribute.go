@@ -108,6 +108,11 @@ const (
 	AttrHuggingFaceBucketMTime       = "huggingface.bucket.mtime"
 	AttrHuggingFaceBucketXetHash     = "huggingface.bucket.xet_hash"
 
+	// OCI
+	AttrOCIRegistry   = "oci.registry"
+	AttrOCIRepository = "oci.repository"
+	AttrOCITag        = "oci.tag"
+
 	// S3 (and S3-compatible object stores)
 	AttrS3Bucket       = "s3.bucket"
 	AttrS3Key          = "s3.key"
